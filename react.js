@@ -1,3 +1,9 @@
+{/* <div id="parent">
+<div id="child 1"></div>
+<div id="child 2"></div>
+</div> */}
+
+
 const heading= React.createElement("h1",{},"hello world from react")
 const root=ReactDOM.createRoot(document.getElementById("root"))
 root.render(heading)
